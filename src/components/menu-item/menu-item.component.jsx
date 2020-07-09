@@ -1,6 +1,6 @@
 import React from "react";
-import "./menu-item.styles.scss";
 import { withRouter } from "react-router-dom"; // takes a component and returns a modified component
+import "./menu-item.styles.scss";
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <div
